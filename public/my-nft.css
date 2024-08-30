@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #1f3c55, #375570);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.nft-gallery-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.back-home {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #ffcc00; /* Gold color for the button */
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.back-home:hover {
+    background: #e6b800; /* Slightly darker gold on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00; /* Gold color for the heading */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.nft-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nft-item {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nft-item img {
+    width: 100%;
+    height: auto;
+}
+
+.nft-details {
+    padding: 15px;
+}
+
+.nft-details h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.nft-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.manage-button,
+.transfer-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #ffcc00; /* Gold color for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.manage-button:hover,
+.transfer-button:hover {
+    background: #e6b800; /* Slightly darker gold on hover */
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}

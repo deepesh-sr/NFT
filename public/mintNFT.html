@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo"> <img src="Assets/pngtree-nft-logo-clipart-virtual-blockchain-art-coin-png-image_6122432.png" alt=""></div>
+            <div class="navbarRight">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Mint NFT</li>
+                    <li>My NFTs</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mintNftBody">
+        <div class="card">
+            <button> <a href="https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.26+commit.8a97fa7a.js"></a>Mint NFT Here</button>
+            <h1>Run the following code in Remix IDE</h1>
+            <p>// SPDX-License-Identifier: MIT
+                pragma solidity ^0.8.0;
+                
+                import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+                import "@openzeppelin/contracts/utils/Counters.sol";
+                
+                // Our Custom NFT Contract
+                contract AkiraNFT is ERC721 {
+                    using Counters for Counters.Counter;
+                    Counters.Counter private _tokenIds;
+                
+                    constructor() ERC721("Akira's Art", "AKRA") {}
+                
+                    function mintAkiraNFT(address owner) public returns (uint256) {
+                        _tokenIds.increment();
+                        uint256 newItemId = _tokenIds.current();
+                        _mint(owner, newItemId);
+                        return newItemId;
+                    }
+                }</p>
+        </div>
+    </div>
+</body>
+</html>

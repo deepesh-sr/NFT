@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #5f7f9b, #3b6f9d);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ffcc00; /* Gold color for headings */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.intro p, .history p, .values-vision p, .cta p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.cta a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta a:hover {
+    text-decoration: underline;
+}
+.back-home{
+    text-decoration: none;
+    color: #ffcc00;
+}
+.back-home:hover {
+    text-decoration: underline;
+}

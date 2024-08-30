@@ -1,0 +1,153 @@
+body {
+    background-color: #3393ab;
+    height: 100vh;
+}
+
+/* Header Section Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar > .logo > img {
+    height: 100px;
+    width: 100px;
+}
+
+.navbar > .navbarRight {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar > .navbarRight > ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.navbar > .navbarRight > ul > li {
+    padding: 12px;
+}
+
+li {
+    color: yellow;
+}
+
+/* Main Section Styles */
+.body h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.body p {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Mint NFT Body Styles */
+.mintNftBody {
+    background-color: azure;
+}
+
+.mintNftBody > .card {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.mintNftBody > .card > button {
+    height: 50px;
+    width: 150px;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #282828;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-top:30% ;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-links, .footer-social, .footer-contact {
+    margin-bottom: 20px;
+}
+
+.footer-links h4, .footer-social h4, .footer-contact h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0px;
+}
+
+/* Link Styles */
+a {
+    color:yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
